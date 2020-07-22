@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel='icon' href='assets/images/favicon.ico' type='image/x-icon'/ >
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <body>
+        <div class="main-container">
+            <div class="main-title">
+                <h1>BlackJack Game Online</h1>
+            </div>
+            <div class="sub-title">
+                <h2 id='game-status'>Let's Play</h2>
+            </div>
+            <div class="play-ground">
+                <div class="your-side">
+                    <h2 id="your-score">You : 0</h2>
+                    <div class="your-cards">
+
+                    </div>
+                </div>
+                <div class="dealer-side">
+                    <h2 id="dealer-score">Dealer: 0</h2>
+                    <div class="dealer-cards">
+
+                    </div>
+                </div>
+            </div>
+            <div class="play-button">
+                <button class="btn btn-primary" id="hit" onclick="gameHit()">Hit</button>
+                <button class="btn btn-warning" id="stand" onclick="gameStand()">Stand</button>
+                <button class="btn btn-danger" id="deal" onclick="gameDeal()">Deal</button>
+                
+            </div>
+            <div class="result-table">
+                <table>
+                    <tr style="border: 1px solid #ffffff;">
+                        <th class="tabledata">Win</th>
+                        <th class="tabledata">Lose</th>
+                        <th class="tabledata">Draw</th>
+                    </tr>
+                    <tr>
+                        <td class="tabledata" id="win-count">0</td>
+                        <td class="tabledata" id="lose-count">0</td>
+                        <td class="tabledata" id="draw-count">0</td>
+                    </tr>
+                </table>
+            </div>
+
+            <footer>
+                <p>Copyright &copy 2020 - Developed by <a href="https://sabbirrifat.com" style="text-decoration: none;">Sabbir Rifat</a> </p>
+            </footer>
+        </div>
+
+    </body>
+    <script src="js/main.js"></script>
+</body>
+</html>

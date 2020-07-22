@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('assets/images/blackjack.jpg');
+    background-size: cover;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-title h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.sub-title h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.play-ground{
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.your-side{
+    padding: 16px;
+    flex: 1;
+    height: 500px;
+    flex-wrap: wrap;
+    border: 1px solid #fff;
+    text-align: center;
+}
+.dealer-side{
+    padding: 16px;
+    flex: 1;
+    height: 500px;
+    border: 1px solid #fff;
+    text-align: center;
+}
+.play-button button{
+    padding: 10px 20px;
+    margin: 8px;
+    font-size: 26px;
+}
+
+.result-table table{
+    margin-top: 50px;
+    border: 1px solid #fff;
+}
+
+.tabledata{
+    font-size: 26px;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+.your-cards img{
+    width: 100px;
+    margin: 20px;
+}
+.dealer-cards img{
+    width: 100px;
+    margin: 20px;
+}
+
+footer{
+   margin-top: 25px;
+}
+footer a{
+    font-weight: 600;
+    color: yellow;
+}
